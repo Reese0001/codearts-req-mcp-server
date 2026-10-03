@@ -1,0 +1,17 @@
+{
+  "name": "codearts-req-mcp-server",
+  "version": "1.0.0",
+  "description": "华为云 CodeArts 需求管理 MCP Server（stdio）",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test server.test.mjs"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}
